@@ -1,0 +1,44 @@
+[
+    {
+       "id":1,
+       "serviceTitle":"Heart-Care",
+       "imgUrl":"https://images.indianexpress.com/2020/09/getty_cardiovascular_health_1200.jpg",
+       "description":"Leading the Way in Cardiac Disease Prevention, Diagnosis, & Treatment. Call Today. Offering a Wide Variety of Treatments for a Range of Cardiac Conditions. Learn More. Interventional Cardiology. Schedule An Appointment. Electrophysiology. Cardiac Rehab."
+      
+    },
+    {
+       "id":2,
+       "serviceTitle":"Diabetic-Care",
+       "imgUrl":"https://healthtimes.co.zw/wp-content/uploads/2019/09/diabates.jpg",
+       "description":"Lingering Effects of Hyperglycemia in Recently Diagnosed Diabetes During Long-term Follow-up of the DCCT/EDIC and UKPDS Cohorts: More Evidence That Early Control Matters."
+      
+    },
+    {
+       "id":3,
+       "serviceTitle":"Neuro-Care",
+       "imgUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCs9-ZUvOORD5ZSGaH3Pg1e_7-KXLWTgO3uw&usqp=CAU",
+       "description":"Home healthcare services for neuro patients. Neurological illnesses often leave patients with debilitating conditions. They can experience problems with mobility, speech, cognitive senses, etc. All these drastically affects the patient's quality of life."
+       
+    },
+    {
+       "id":4,
+       "serviceTitle":"Eye-Care",
+       "imgUrl":"https://www.biospectrumasia.com/uploads/articles/exercises_for_proper_eye_care_750x390-18374.jpeg",
+       "description":"Primary eye care is the provision of appropriate, accessible, and affordable care that meets patients' eye care needs in a comprehensive and competent manner. Primary eye care provides the patient with the first contact for eye care as well as a lifetime of continuing care."
+     
+    },
+    {
+       "id":5,
+       "serviceTitle":"Gastroenterology",
+       "imgUrl":"https://www.evercarebd.com/wp-content/uploads/2015/04/Gastroenterology_Hepatology.jpg",
+       "description":"Gastroenterology is the study of the normal function and diseases of the esophagus, stomach, small intestine, colon and rectum, pancreas, gallbladder, bile ducts and liver."
+      
+    },
+    {
+       "id":6,
+       "serviceTitle":"Nephrologist",
+       "imgUrl":"https://1.bp.blogspot.com/-xanfrfABM6Q/X-IYNeu38MI/AAAAAAAAAFg/HIAin6U1EI4XKEp_4Ni4AQhJK_uVO-D1QCLcBGAsYHQ/s660/Kidney%2BSpecialist.jpg",
+       "description":"A nephrologist, also known as a kidney doctor, is a kidney disease specialist and is the most qualified doctor to help you manage your kidney health."
+      
+    }
+ ]
