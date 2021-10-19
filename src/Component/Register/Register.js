@@ -11,8 +11,9 @@ const Register = () => {
         handleEmail,
         handlePassword,
         signUpByEmailPassWord,
-        handlePhoto,
-        setNameAndPhoto } = useAuth();
+        setNameAndPhoto,
+        error,
+        setError } = useAuth();
 
     const handleRegistration = e => {
         e.preventDefault();
@@ -21,6 +22,9 @@ const Register = () => {
                 setNameAndPhoto();
                 window.location.reload();
                 console.log(result.user);
+            })
+            .catch(error => {
+                setError(error.message);
             })
     }
     return (
@@ -46,9 +50,9 @@ const Register = () => {
                                 <input type="password" onBlur={handlePassword} name="pass" id="pass" placeholder='Please enter your password...' required />
                                 <br />
                                 <br />
-                                {/* <input type="text" onBlur={handlePhoto} name="photo" id="photo" placeholder='Please enter a valid url...' required /> */}
                                 <br />
                                 <button type="submit">Sign up</button>
+                                <div>{error}</div>
                                 <p className='already-have-ac-txt'>Already have an account? <Link to='/login'>Login Here</Link> </p>
                             </form>
                         </Col>

@@ -116,7 +116,9 @@ const useFirebase = () => {
         handleEmail,
         handlePassword,
         handlePhoto,
-        setNameAndPhoto
+        setNameAndPhoto,
+        error,
+        setError
 
     }
 }

@@ -12,7 +12,9 @@ const LogIn = () => {
         signInByGoogle,
         handleEmail,
         handlePassword,
-        setUser } = useAuth();
+        setUser,
+        error,
+        setError } = useAuth();
 
     const location = useLocation();
     const hostory = useHistory();
@@ -22,6 +24,9 @@ const LogIn = () => {
             .then(result => {
                 hostory.push(redirectURL);
             })
+            .catch(error => {
+                setError(error.message);
+            })
     }
 
     const handleEmailPassSignIn = (e) => {
@@ -30,6 +35,9 @@ const LogIn = () => {
             .then((result) => {
                 setUser(result.user);
                 hostory.push(redirectURL);
+            })
+            .catch(error => {
+                setError(error.message);
             })
     }
 
@@ -55,6 +63,7 @@ const LogIn = () => {
                                 <br />
                                 <br />
                                 <Button type="submit">Login</Button>
+                                <div>{error}</div>
                                 <p className='already-have-ac-txt'>New Here? <Link to='/register'>Register</Link> </p>
                             </Form>
                             <Button onClick={handleGoogleSignIn}> Login with Google</Button>
